@@ -1,0 +1,207 @@
+@use "./global-utils" as *;
+
+.label-8 {
+  font-family: var(--font-roboto-mono);
+  font-size: 0.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+
+.label-10 {
+  font-family: var(--font-roboto-mono);
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.label-14 {
+  font-family: var(--font-roboto-mono);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 114.286%;
+  text-transform: uppercase;
+}
+
+.h1 {
+  font-feature-settings: "case" on;
+  font-family: var(--font-off-bit);
+  font-size: 9.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85%;
+  letter-spacing: -0.225rem;
+  text-transform: uppercase;
+
+  @include mobile {
+    font-size: 4.0625rem;
+    letter-spacing: -0.0975rem;
+  }
+}
+
+.h1-pp {
+  font-family: var(--font-pp-neue-montreal);
+  font-size: 9.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 85%;
+  letter-spacing: -0.45rem;
+  text-transform: uppercase;
+
+  @include mobile {
+    font-size: 4.0625rem;
+    letter-spacing: -0.195rem;
+  }
+}
+
+.h3 {
+  font-family: var(--font-off-bit);
+  font-size: 4.6875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85%;
+  letter-spacing: -0.1125rem;
+  text-transform: uppercase;
+
+  @include mobile {
+    font-size: 2.1875rem;
+    line-height: 91%;
+    letter-spacing: -0.0525rem;
+  }
+}
+
+.h3-pp {
+  font-family: var(--font-pp-neue-montreal);
+  font-size: 4.6875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 85%;
+  letter-spacing: -0.225rem;
+  text-transform: uppercase;
+
+  @include mobile {
+    font-size: 2.1875rem;
+    line-height: 91%;
+    letter-spacing: -0.105rem;
+  }
+}
+
+.h4 {
+  font-family: var(--font-off-bit);
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96%;
+  letter-spacing: -0.075rem;
+  text-transform: uppercase;
+
+  @include mobile {
+    font-size: 2.1875rem;
+    line-height: 91%;
+    letter-spacing: -0.0525rem;
+  }
+}
+
+.h4-pp {
+  font-family: var(--font-pp-neue-montreal);
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 96%;
+  letter-spacing: -0.15rem;
+  text-transform: uppercase;
+
+  @include mobile {
+    font-size: 2.1875rem;
+    line-height: 91%;
+    letter-spacing: -0.105rem;
+  }
+}
+
+.h5-pp {
+  font-family: var(--font-pp-neue-montreal);
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 96%;
+  letter-spacing: -0.075rem;
+  text-transform: uppercase;
+
+  @include mobile {
+    font-size: 1rem;
+    line-height: 125%;
+    letter-spacing: -0.048rem;
+  }
+}
+
+.h6-pp {
+  font-family: var(--font-pp-neue-montreal);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: -0.048rem;
+  text-transform: uppercase;
+}
+
+.p1-36 {
+  font-family: var(--font-pp-neue-montreal);
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 111%;
+  letter-spacing: -0.054rem;
+
+  @include mobile {
+    font-size: 1.5rem;
+    line-height: 116%;
+    letter-spacing: -0.036rem;
+  }
+}
+
+.p2-16 {
+  font-family: var(--font-pp-neue-montreal);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: -0.024rem;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 1.5%; /* 0.24px */
+  text-underline-offset: 12.5%; /* 2px */
+  text-underline-position: from-font;
+}
+
+.p3-20 {
+  font-family: var(--font-pp-neue-montreal);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.0375rem;
+}
+
+.r35 {
+  font-family: var(--font-redaction-35);
+  font-size: 4.6875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4rem;
+  letter-spacing: -0.25rem;
+  text-transform: uppercase;
+
+  @include mobile {
+    font-size: 2.1875rem;
+    line-height: 91%;
+  }
+}
+
+.medium {
+  font-weight: 500;
+}

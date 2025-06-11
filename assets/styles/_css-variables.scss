@@ -1,0 +1,42 @@
+@use "./global-utils" as *;
+
+// viewport
+
+:root {
+  --viewport: 1440;
+
+  @include mobile {
+    --viewport: 375;
+  }
+}
+
+// fonts
+
+:root {
+  --font-off-bit: "OffBit Trial";
+  --font-roboto-mono: "Roboto Mono";
+  --font-pp-neue-montreal: "PP Neue Montreal";
+  --font-redaction-35: "Redaction 35";
+}
+
+// transitions
+
+:root {
+  --default-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --default-duration: 0.4s;
+}
+
+// colors
+
+:root {
+  --base-black: #000000;
+  --base-010: rgba(246, 247, 255, 0.1);
+  --base-020: rgba(246, 247, 255, 0.2);
+  --base-0100: #f6f7ff;
+  --brand-neon-lime-100: #00f400;
+  --brand-neon-lime-20: rgba(0, 244, 0, 0.2);
+  --brand-luminous-yellow-100: #f4f000;
+  --brand-luminous-yellow-20: rgba(244, 240, 0, 0.2);
+  --brand-firestorm-100: #f6271e;
+  --base-red: #f93434;
+}
