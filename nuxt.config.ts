@@ -3,6 +3,10 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-05-31",
   devtools: { enabled: false },
 
+  nitro: {
+    preset: "node-server",
+  },
+
   css: ["@/assets/styles/main.scss"],
 
   vite: {
